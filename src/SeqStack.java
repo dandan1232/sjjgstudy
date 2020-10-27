@@ -1,74 +1,79 @@
-//¡¶Êı¾İ½á¹¹ÓëËã·¨£¨Java°æ£©£¨µÚ5°æ£©¡·£¬×÷Õß£ºÒ¶ºËÑÇ£¬2019Äê7ÔÂ23ÈÕ
-//¡ì4.1.2   Õ»µÄ´æ´¢ºÍÊµÏÖ
-//1. Ë³ĞòÕ»
+import data.singly.SeqList;
 
-//Ë³ĞòÕ»Àà£¬×îÖÕÀà£¬ÊµÏÖÕ»½Ó¿Ú£¬T±íÊ¾Êı¾İÔªËØµÄÊı¾İÀàĞÍ
-public final class SeqStack<T> implements Stack<T> {
-    private SeqList<T> list;                     //Ê¹ÓÃË³Ğò±í£¨2.2.2½Ú£©´æ´¢Õ»ÔªËØ
+/**
+ * @author Flobby
+ * @version :1.0
+ * @date :2020/10/27
+ * @ClassName :
+ */
 
-    public SeqStack(int length)                  //¹¹ÔìÈİÁ¿ÎªlengthµÄ¿ÕÕ»
+public final class SeqStack<T> implements Stack<T>
+{
+    private SeqList<T> list;                     //ä½¿ç”¨é¡ºåºè¡¨ï¼ˆ2.2.2èŠ‚ï¼‰å­˜å‚¨æ ˆå…ƒç´ 
+
+    public SeqStack(int length)                  //æ„é€ å®¹é‡ä¸ºlengthçš„ç©ºæ ˆ
     {
-        this.list = new SeqList<T>(length);      //Ö´ĞĞË³Ğò±í¹¹Ôì·½·¨
+        this.list = new SeqList<T>(length);      //æ‰§è¡Œé¡ºåºè¡¨æ„é€ æ–¹æ³•
     }
-
-    public SeqStack()                            //¹¹ÔìÄ¬ÈÏÈİÁ¿µÄ¿ÕÕ»
+    public SeqStack()                            //æ„é€ é»˜è®¤å®¹é‡çš„ç©ºæ ˆ
     {
         this(64);
     }
 
-    public boolean isEmpty()                     //ÅĞ¶ÏÕ»ÊÇ·ñ¿Õ£¬ÈôÎª¿Õ£¬Ôò·µ»Øtrue
+    @Override
+    public boolean isEmpty()                     //åˆ¤æ–­æ ˆæ˜¯å¦ç©ºï¼Œè‹¥ä¸ºç©ºï¼Œåˆ™è¿”å›true
     {
         return this.list.isEmpty();
     }
 
-    public void push(T x)                        //ÔªËØxÈëÕ»£¬¿Õ¶ÔÏó²»ÄÜÈëÕ»
+    @Override
+    public void push(T x)                        //å…ƒç´ xå…¥æ ˆï¼Œç©ºå¯¹è±¡ä¸èƒ½å…¥æ ˆ
     {
-        this.list.insert(x);                     //Ë³Ğò±íÎ²²åÈëÔªËØx£¬×Ô¶¯À©³äÈİÁ¿
+        this.list.insert(x);                     //é¡ºåºè¡¨å°¾æ’å…¥å…ƒç´ xï¼Œè‡ªåŠ¨æ‰©å……å®¹é‡
     }
 
-    public T peek()                              //·µ»ØÕ»¶¥ÔªËØ£¨Î´³öÕ»£©£¬ÈôÕ»Îª¿Õ£¬Ôò·µ»Ønull
+    @Override
+    public T peek()                              //è¿”å›æ ˆé¡¶å…ƒç´ ï¼ˆæœªå‡ºæ ˆï¼‰ï¼Œè‹¥æ ˆä¸ºç©ºï¼Œåˆ™è¿”å›null
     {
-        return this.list.get(list.size() - 1);     //ÈôÕ»Îª¿Õ£¬Ôòget(i)·µ»Ønull
+        return this.list.get(list.size()-1);     //è‹¥æ ˆä¸ºç©ºï¼Œåˆ™get(i)è¿”å›null
 //        return this.isEmpty() ? null : this.list.get(list.size()-1);
     }
 
-    public T pop()                               //³öÕ»£¬·µ»ØÕ»¶¥ÔªËØ£»ÈôÕ»Îª¿Õ£¬Ôò·µ»Ønull
+    @Override
+    public T pop()                               //å‡ºæ ˆï¼Œè¿”å›æ ˆé¡¶å…ƒç´ ï¼›è‹¥æ ˆä¸ºç©ºï¼Œåˆ™è¿”å›null
     {
-        return this.list.remove(list.size() - 1);  //ÈôÕ»²»¿Õ£¬Ë³Ğò±íÎ²É¾³ı£¬·µ»ØÉ¾³ıÔªËØ
+        return this.list.remove(list.size()-1);  //è‹¥æ ˆä¸ç©ºï¼Œé¡ºåºè¡¨å°¾åˆ é™¤ï¼Œè¿”å›åˆ é™¤å…ƒç´ 
     }
 
-    //ÒÔÏÂ½Ì²ÄÃ»Ğ´
-    public String toString()                     //·µ»ØÕ»ËùÓĞÔªËØµÄÃèÊö×Ö·û´®£¬ĞÎÊ½Îª¡°(,)¡±
+    //ä»¥ä¸‹æ•™ææ²¡å†™
+    @Override
+    public String toString()                     //è¿”å›æ ˆæ‰€æœ‰å…ƒç´ çš„æè¿°å­—ç¬¦ä¸²ï¼Œå½¢å¼ä¸ºâ€œ(,)â€
     {
         return //this.getClass().getName()+
-                this.list.toString();//Êä³öË³Ğò±í
+                this.list.toString();//è¾“å‡ºé¡ºåºè¡¨
     }
-
-    public String toPreviousString()             //·´ĞòÊä³öË³ĞòÕ»
+    public String toPreviousString()             //ååºè¾“å‡ºé¡ºåºæ ˆ
     {
         return //this.getClass().getName()+" "+
-                this.list.toPreviousString();//·´ĞòÊä³öË³Ğò±í
+                this.list.toPreviousString();//ååºè¾“å‡ºé¡ºåºè¡¨
     }
 
-    //ÒÔÏÂÇóËùÓĞÖ±¾¶³ÌĞòÓÃµ½
-    public SeqStack(SeqStack<T> stack)           //Õ»Éî¿½±´¹¹Ôì·½·¨
+    //ä»¥ä¸‹æ±‚æ‰€æœ‰ç›´å¾„ç¨‹åºç”¨åˆ°
+    public SeqStack(SeqStack<T> stack)           //æ ˆæ·±æ‹·è´æ„é€ æ–¹æ³•
     {
-        this.list = new SeqList<T>(stack.list);  //Ö´ĞĞË³Ğò±íµÄÉî¿½±´¹¹Ôì·½·¨
+        this.list = new SeqList<T>(stack.list);  //æ‰§è¡Œé¡ºåºè¡¨çš„æ·±æ‹·è´æ„é€ æ–¹æ³•
     }
-
-    public void copy(SeqStack<T> stack)          //Õ»Éî¿½±´
+    public void copy(SeqStack<T> stack)          //æ ˆæ·±æ‹·è´
     {
-        this.list = new SeqList<T>(stack.list);  //Ö´ĞĞË³Ğò±íµÄÉî¿½±´¹¹Ôì·½·¨
+        this.list = new SeqList<T>(stack.list);  //æ‰§è¡Œé¡ºåºè¡¨çš„æ·±æ‹·è´æ„é€ æ–¹æ³•
     }
-
-    public void clear()                          //Çå¿ÕÕ»
+    @Override
+    public void clear()                          //æ¸…ç©ºæ ˆ
     {
         this.list.clear();
     }
-
-    public int size()                            //·µ»ØÔªËØ¸öÊı¡£O(1)
+    public int size()                            //è¿”å›å…ƒç´ ä¸ªæ•°ã€‚O(1)
     {
         return this.list.size();
     }
 }
-//@author£ºYeheya¡£2014Äê7ÔÂ1ÈÕ£¬2019Äê10ÔÂ5ÈÕ£¬2020Äê7ÔÂ23ÈÕ
