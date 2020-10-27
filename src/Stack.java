@@ -14,4 +14,4 @@ public interface Stack<T> {
     //以下求所有直径程序用到
     public abstract void clear();                //清空栈
 }
-//@author：Yeheya，2014年10月23日，2019年7月23日，2020年7月23日
+//@author：Yeheya，2014年10月23日，2019年7月23日，020年7月23日

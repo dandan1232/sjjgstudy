@@ -1,6 +1,3 @@
-package data.stackandqueue;
-
-
 import data.singly.SeqList;
 
 /**

@@ -1,5 +1,3 @@
-package data.singly;
-
 /**
  * @author Flobby
  * @version :1.0
