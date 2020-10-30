@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08d89937-b825-4b86-8204-2fcf8743ead1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/SeqList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeqList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeqStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeqStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +109,9 @@
       <workItem from="1602812029834" duration="363000" />
       <workItem from="1603158601396" duration="2681000" />
       <workItem from="1603414794049" duration="2570000" />
-      <workItem from="1603761950524" duration="4836000" />
+      <workItem from="1603761950524" duration="4944000" />
+      <workItem from="1603768582911" duration="99000" />
+      <workItem from="1603843168093" duration="218000" />
     </task>
     <servers />
   </component>
@@ -125,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
