@@ -1,11 +1,5 @@
 package data.Matrix;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/30
- * @ClassName :
- */
 
 public class MatrixTest {
     public static void main(String[] args) {

@@ -1,12 +1,5 @@
 package data.Matrix;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/30
- * @ClassName :
- */
-
 public class Triple implements Comparable<Triple>, Addible<Triple>
 {
     int row, column, value;                      //行号、列号、元素值，默认访问权限

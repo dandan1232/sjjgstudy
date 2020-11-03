@@ -1,12 +1,5 @@
 package data.singly;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/16
- * @ClassName :
- */
-
 public class SinglyListConcat {
     public static void main(String[] args) {
         //(1) 合并连接与添加子表（深拷贝）

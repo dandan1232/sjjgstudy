@@ -1,11 +1,5 @@
 package data.stackandqueue;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :
- */
 
 public final class SeqQueue<T>  implements Queue<T>
 {

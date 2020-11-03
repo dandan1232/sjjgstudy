@@ -1,8 +1,5 @@
 package data.Matrix;
 
-/**
- * @author Flobby
- */
 public interface Addible<T>                      //可相加接口，T表示数据元素的数据类型
 {
     public void add(T tobj);                     //+=相加，约定两元素相加规则

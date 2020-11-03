@@ -1,12 +1,5 @@
 package data.singly;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/9
- * @ClassName :顺序表类
- */
-
 public class SeqList<T> {
 
     protected Object[] elements;

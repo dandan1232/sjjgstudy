@@ -4,12 +4,6 @@ import data.singly.Node;
 import data.singly.SeqList;
 import data.singly.SortedSinglyList;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/30
- * @ClassName :
- */
 
 public class LinkedMatrix {                       //三元组行的单链表存储的矩阵类
 

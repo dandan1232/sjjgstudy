@@ -1,12 +1,5 @@
 package data.singly;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/16
- * @ClassName :
- */
-
 public class SinglyList<T> extends Object
 //implements List<T>
         //implements java.lang.Iterable<T>    //10.2.2，实现可迭代接口

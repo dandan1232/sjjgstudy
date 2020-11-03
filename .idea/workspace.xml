@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d89937-b825-4b86-8204-2fcf8743ead1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedMatrix例5_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Addible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/LinkedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/LinkedMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/MatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/SeqMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/SortedSinglyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Matrix/TripleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Triple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TripleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Gen/GenLList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Gen/GenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Gen/GenList_insertRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Gen/GenLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/Gen/GenNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SeqStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeqStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/singly/SinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/singly/SinglyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/singly/SinglyListConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/singly/SinglyListConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/singly/SortedSinglyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/singly/SortedSinglyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/SeqQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/SeqQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/SeqStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/SeqStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/stackandqueue/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/stackandqueue/StackTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sjjgstudy\src\Gen" />
       <recent name="D:\sjjgstudy\src\Matrix" />
       <recent name="D:\sjjgstudy\src" />
     </key>
@@ -72,7 +74,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MatrixTest">
+  <component name="RunManager" selected="Application.GenList_insertRemove">
+    <configuration name="GenList_insertRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.Gen.GenList_insertRemove" />
+      <module name="sjjgstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.Gen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KMP_MyString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="KMP_MyString" />
       <module name="sjjgstudy" />
@@ -93,13 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyList_concat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SinglyList_concat" />
-      <module name="sjjgstudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Stack_ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack_ex" />
       <module name="sjjgstudy" />
@@ -116,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenList_insertRemove" />
         <item itemvalue="Application.MatrixTest" />
         <item itemvalue="Application.TestMatrix" />
         <item itemvalue="Application.Stack_ex" />
         <item itemvalue="Application.KMP_MyString" />
-        <item itemvalue="Application.SinglyList_concat" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +153,8 @@
       <workItem from="1603843168093" duration="218000" />
       <workItem from="1604018527882" duration="2649000" />
       <workItem from="1604361612888" duration="2293000" />
+      <workItem from="1604364034465" duration="425000" />
+      <workItem from="1604364468691" duration="280000" />
     </task>
     <servers />
   </component>

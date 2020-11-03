@@ -1,12 +1,5 @@
 package data.singly;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/13
- * @ClassName :
- */
-
 public class Node<T>    {
 // 单链表结点类，T指定结点的元素类型
     public T data;

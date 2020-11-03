@@ -1,11 +1,5 @@
 package data.stackandqueue;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :队列
- */
 
 public interface Queue<T>              //队列接口，描述队列抽象数据类型，T表示数据元素的数据类型
 {

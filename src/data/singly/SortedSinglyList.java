@@ -1,11 +1,5 @@
 package data.singly;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/30
- * @ClassName :
- */
 
 public class SortedSinglyList<T extends Comparable<? super T>> extends SinglyList<T>
 {

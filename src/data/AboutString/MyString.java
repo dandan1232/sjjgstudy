@@ -1,12 +1,5 @@
 package data.AboutString;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/20
- * @ClassName :
- */
-
 public class MyString implements Comparable<MyString>, java.io.Serializable{
     private final char[] value;                  //字符数组，私有最终变量，只能赋值一次
 

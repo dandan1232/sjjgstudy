@@ -1,10 +1,5 @@
 package data.stackandqueue;
 
-/**
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :
- */
 
 public interface Stack<T>
 {

@@ -3,12 +3,6 @@ package data.stackandqueue;
 
 import data.singly.SeqList;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :
- */
 
 public final class SeqStack<T> implements Stack<T>
 {

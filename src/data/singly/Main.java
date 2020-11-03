@@ -1,12 +1,5 @@
 package data.singly;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/13
- * @ClassName :
- */
-
 public class Main {
     public static void main(String[] args) {
 //        write your code here

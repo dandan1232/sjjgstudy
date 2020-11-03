@@ -2,13 +2,6 @@ package data.stackandqueue;
 
 import data.singly.SinglyList;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :
- */
-
 public final class LinkedStack<T> implements Stack<T>
 {
     private SinglyList<T> list;                  //使用单链表（2.3.2节）存储栈元素

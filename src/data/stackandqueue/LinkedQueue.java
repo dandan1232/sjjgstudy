@@ -2,13 +2,6 @@ package data.stackandqueue;
 
 import data.singly.Node;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :
- */
-
 public final class LinkedQueue<T>  implements Queue<T>
 {
     private Node<T> front, rear;                 //front和rear分别指向队头和队尾结点

@@ -1,12 +1,5 @@
 package data.stackandqueue;
 
-/**
- * @author Flobby
- * @version :1.0
- * @date :2020/10/27
- * @ClassName :
- */
-
 public class StackTest {
     public static void main(String[] args)
     {
