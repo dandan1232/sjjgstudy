@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d89937-b825-4b86-8204-2fcf8743ead1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/BinaryTTree/TwoLinkBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/BinaryTTree/TwoLinkBinTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/TTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/Tree_city.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/Trees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/AboutString/MyString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/AboutString/MyString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/KMP/KmpStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/KMP/KmpStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/KMP/KmpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/KMP/KmpTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/LinkedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/LinkedMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/LinkedMatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/LinkedMatrixTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/Matrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/MatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/MatrixTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/SeqMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/SeqMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/Triple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/Triple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/TripleComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/Matrix/TripleComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/singly/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/singly/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/singly/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/singly/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/singly/SeqList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/singly/SeqList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sjjgstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sjjgstudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sjjgstudy\src\data\StorageTree" />
       <recent name="D:\sjjgstudy\src\data\BinaryTTree" />
       <recent name="D:\sjjgstudy\src\Gen" />
       <recent name="D:\sjjgstudy\src\Matrix" />
@@ -81,7 +74,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoLinkBinTreeTest">
+  <component name="RunManager" selected="Application.BinaryTree2">
+    <configuration name="BinaryTree2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.BinaryTTree.BinaryTree2" />
+      <module name="sjjgstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data.BinaryTTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenList_insertRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.Gen.GenList_insertRemove" />
       <module name="sjjgstudy" />
@@ -121,13 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestMatrix" />
-      <module name="sjjgstudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoLinkBinTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sjjgstudy" />
       <extension name="coverage">
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree2" />
         <item itemvalue="JUnit.TwoLinkBinTreeTest" />
         <item itemvalue="Application.GenLists" />
         <item itemvalue="Application.GenList_insertRemove" />
         <item itemvalue="Application.MatrixTest" />
-        <item itemvalue="Application.TestMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,9 @@
       <workItem from="1604364468691" duration="3226000" />
       <workItem from="1604447560593" duration="86000" />
       <workItem from="1604622576955" duration="3308000" />
-      <workItem from="1604966607451" duration="1162000" />
+      <workItem from="1604966607451" duration="5838000" />
+      <workItem from="1605053128652" duration="833000" />
+      <workItem from="1605575515867" duration="1967000" />
     </task>
     <servers />
   </component>

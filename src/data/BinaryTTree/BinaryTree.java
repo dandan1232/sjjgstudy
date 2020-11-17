@@ -343,6 +343,6 @@ public class BinaryTree<T>  extends Object  //implements BinaryTTree<T>
             p.right = create(levellist, 2*i+2);            //创建p的右子树
         }
         return p;
-    }    
+    }
 }
 //@author：Yeheya。2016-1-22，2019年10月13日，2020年2月16日
