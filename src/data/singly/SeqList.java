@@ -119,4 +119,8 @@ public class SeqList<T> {
     public void clear(){
         this.n = 0;
     }
+
+    public int search(T key){
+        return 0;
+    }
 }

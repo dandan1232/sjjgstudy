@@ -2,7 +2,7 @@
 //§6.3   二叉树应用
 //§6.3.1  Huffman树
 //【例6.4】  采用Huffman算法对字符串进行数据压缩和解压缩。
-
+package data.Huffman;
 public class HuffmanTree_ex 
 {
     public static void main(String[] args)

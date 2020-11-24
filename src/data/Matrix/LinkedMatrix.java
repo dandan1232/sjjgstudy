@@ -2,14 +2,16 @@ package data.Matrix;
 
 import data.singly.Node;
 import data.singly.SeqList;
+import data.singly.SinglyList;
 import data.singly.SortedSinglyList;
 
 
-public class LinkedMatrix {                       //三元组行的单链表存储的矩阵类
+public class LinkedMatrix {
+    // public SinglyList<Object> rowlist;                       //三元组行的单链表存储的矩阵类
 
     //private
     int rows, columns;                           //矩阵行数、列数
-    SeqList<SortedSinglyList<Triple>> rowlist;   //行指针顺序表，元素是排序单链表，默认权限
+   public SeqList<SortedSinglyList<Triple>> rowlist;   //行指针顺序表，元素是排序单链表，默认权限
 //    SeqList<PolySinglyList<Triple>> rowlist;     //行指针顺序表，元素是多项式排序单链表，默认权限
 //  SeqList<SortedSeqList<Triple>> rowlist;      //行指针顺序表，元素是排序顺序表
     ////说明：rows, columns教材写private；此时不写，因为实验题要用
@@ -198,5 +200,8 @@ public class LinkedMatrix {                       //三元组行的单链表存�
         } else {
             throw new IllegalArgumentException("两个矩阵阶数不同，不能相加");
         }
+    }
+
+    public void setRowsColumns(int i, int i1) {
     }
 }

@@ -1,0 +1,185 @@
+//《数据结构与算法（Java版）（第5版）》，作者：叶核亚，2019年8月12日
+//§7.2   图的表示和实现
+//§7.2.3  图的邻接表表示和实现
+//【例7.1】  构造带权图。
+
+程序运行结果如下：
+【图7.18】，带权无向图G3，顶点集合：SeqList(A,B,C,D,E,F) 
+出边表：
+0 -> SortedSinglyList((0,1,45),(0,2,28),(0,3,10))
+1 -> SortedSinglyList((1,0,45),(1,2,12),(1,4,21))
+2 -> SortedSinglyList((2,0,28),(2,1,12),(2,3,17),(2,4,26))
+3 -> SortedSinglyList((3,0,10),(3,2,17),(3,4,15),(3,5,13))
+4 -> SortedSinglyList((4,1,21),(4,2,26),(4,3,15),(4,5,11))
+5 -> SortedSinglyList((5,3,13),(5,4,11))
+
+【图7.20】，带权无向图G3，删除顶点B，插入顶点G，顶点集合：SeqList(A,F,C,D,E,G) 
+出边表：
+0 -> SortedSinglyList((0,2,28),(0,3,10))
+1 -> SortedSinglyList((1,3,13),(1,4,11))
+2 -> SortedSinglyList((2,0,28),(2,3,17),(2,4,26))
+3 -> SortedSinglyList((3,0,10),(3,1,13),(3,2,17),(3,4,15))
+4 -> SortedSinglyList((4,1,11),(4,2,26),(4,3,15))
+5 -> SortedSinglyList()
+
+【】带权无向图G3，删除顶点C，插入顶点G，顶点集合：SeqList(A,B,F,D,E,G) 
+出边表：
+0 -> SortedSinglyList((0,1,45),(0,3,10))
+1 -> SortedSinglyList((1,0,45),(1,4,21))
+2 -> SortedSinglyList((2,3,13),(2,4,11))
+3 -> SortedSinglyList((3,0,10),(3,2,13),(3,4,15))
+4 -> SortedSinglyList((4,1,21),(4,2,11),(4,3,15))
+5 -> SortedSinglyList()
+
+【思考题7-3】带权无向图G3，删除顶点D，插入顶点G，顶点集合：SeqList(A,B,C,F,E,G) 
+出边表：
+0 -> SortedSinglyList((0,1,45),(0,2,28))
+1 -> SortedSinglyList((1,0,45),(1,2,12),(1,4,21))
+2 -> SortedSinglyList((2,0,28),(2,1,12),(2,4,26))
+3 -> SortedSinglyList((3,4,11))
+4 -> SortedSinglyList((4,1,21),(4,2,26),(4,3,11))
+5 -> SortedSinglyList()
+
+        //§7.3   图的遍历
+带权无向图G3，插入顶点G，插入顶点H，删除边(E,F,11)，
+图7.23无向图G1，顶点集合：SeqList(A,B,C,D,E,F,G,H) 
+出边表：
+0 -> SortedSinglyList((0,1,45),(0,2,28),(0,3,10))
+1 -> SortedSinglyList((1,0,45),(1,2,12),(1,4,21))
+2 -> SortedSinglyList((2,0,28),(2,1,12),(2,3,17),(2,4,26))
+3 -> SortedSinglyList((3,0,10),(3,2,17),(3,4,15),(3,5,13))
+4 -> SortedSinglyList((4,1,21),(4,2,26),(4,3,15))
+5 -> SortedSinglyList((5,3,13))
+6 -> PolySinglyList((6,7,10))
+7 -> PolySinglyList((7,6,10))
+深度优先遍历无向图G1：
+{ A B C D E F } { G H } 
+{ B A C D E F } { G H } 
+{ C A B E D F } { G H } 
+{ D A B C E F } { G H } 
+{ E B A C D F } { G H } 
+{ F D A B C E } { G H } 
+{ G H } { A B C D E F } 
+{ H G } { A B C D E F } 
+
+深度优先遍历无向图G1：
+{ ->A ->B ->C ->D ->E D<- ->F D<- C<- B<- A<- } { ->G ->H G<- } 
+{ ->B ->A ->C ->D ->E D<- ->F D<- C<- A<- B<- } { ->G ->H G<- } 
+{ ->C ->A ->B ->E ->D ->F D<- E<- B<- A<- C<- } { ->G ->H G<- } 
+{ ->D ->A ->B ->C ->E C<- B<- A<- D<- ->F D<- } { ->G ->H G<- } 
+{ ->E ->B ->A ->C ->D ->F D<- C<- A<- B<- E<- } { ->G ->H G<- } 
+{ ->F ->D ->A ->B ->C ->E C<- B<- A<- D<- F<- } { ->G ->H G<- } 
+{ ->G ->H G<- } { ->A ->B ->C ->D ->E D<- ->F D<- C<- B<- A<- } 
+{ ->H ->G H<- } { ->A ->B ->C ->D ->E D<- ->F D<- C<- B<- A<- } 
+
+带权无向图G3，插入顶点G，删除边(E,F,11)
+图7.26无向图G1，顶点集合：SeqList(A,B,C,D,E,F,G) 
+出边表：
+0 -> SortedSinglyList((0,1,45),(0,2,28),(0,3,10))
+1 -> SortedSinglyList((1,0,45),(1,2,12),(1,4,21))
+2 -> SortedSinglyList((2,0,28),(2,1,12),(2,3,17),(2,4,26))
+3 -> SortedSinglyList((3,0,10),(3,2,17),(3,4,15),(3,5,13))
+4 -> SortedSinglyList((4,1,21),(4,2,26),(4,3,15))
+5 -> SortedSinglyList((5,3,13))
+6 -> PolySinglyList()
+
+广度优先遍历无向图G1：
+{ A B C D E F } { G } 
+{ B A C E D F } { G } 
+{ C A B D E F } { G } 
+{ D A C E F B } { G } 
+{ E B C D A F } { G } 
+{ F D A C E B } { G } 
+{ G } { A B C D E F } 
+
+广度优先遍历无向图G1：
+{ A     顶点队列：SeqQueue(0)，front=0，rear=1
+  B C D 顶点队列：SeqQueue(1,2,3)，front=1，rear=4
+  E     顶点队列：SeqQueue(2,3,4)，front=2，rear=5
+                顶点队列：SeqQueue(3,4)，front=3，rear=5
+  F     顶点队列：SeqQueue(4,5)，front=4，rear=0
+                顶点队列：SeqQueue(5)，front=5，rear=0
+}
+{ G     顶点队列：SeqQueue(6)，front=0，rear=1
+} 
+
+{ B     顶点队列：SeqQueue(1)，front=0，rear=1
+  A C E 顶点队列：SeqQueue(0,2,4)，front=1，rear=4
+  D     顶点队列：SeqQueue(2,4,3)，front=2，rear=5
+                顶点队列：SeqQueue(4,3)，front=3，rear=5
+                顶点队列：SeqQueue(3)，front=4，rear=5
+  F     顶点队列：SeqQueue(5)，front=5，rear=0
+}
+{ G     顶点队列：SeqQueue(6)，front=0，rear=1
+} 
+
+{ C       顶点队列：SeqQueue(2)，front=0，rear=1
+  A B D E 顶点队列：SeqQueue(0,1,3,4)，front=1，rear=5
+                    顶点队列：SeqQueue(1,3,4)，front=2，rear=5
+                    顶点队列：SeqQueue(3,4)，front=3，rear=5
+  F       顶点队列：SeqQueue(4,5)，front=4，rear=0
+                    顶点队列：SeqQueue(5)，front=5，rear=0
+}
+{ G       顶点队列：SeqQueue(6)，front=0，rear=1
+} 
+
+{ D       顶点队列：SeqQueue(3)，front=0，rear=1
+  A C E F 顶点队列：SeqQueue(0,2,4,5)，front=1，rear=5
+  B       顶点队列：SeqQueue(2,4,5,1)，front=2，rear=0
+                    顶点队列：SeqQueue(4,5,1)，front=3，rear=0
+                    顶点队列：SeqQueue(5,1)，front=4，rear=0
+                    顶点队列：SeqQueue(1)，front=5，rear=0
+}
+{ G       顶点队列：SeqQueue(6)，front=0，rear=1
+} 
+
+{ E       顶点队列：SeqQueue(4)，front=0，rear=1
+  B C D   顶点队列：SeqQueue(1,2,3)，front=1，rear=4
+  A       顶点队列：SeqQueue(2,3,0)，front=2，rear=5
+                    顶点队列：SeqQueue(3,0)，front=3，rear=5
+  F       顶点队列：SeqQueue(0,5)，front=4，rear=0
+                    顶点队列：SeqQueue(5)，front=5，rear=0
+}
+{ G       顶点队列：SeqQueue(6)，front=0，rear=1
+} 
+
+{ F       顶点队列：SeqQueue(5)，front=0，rear=1
+  D       顶点队列：SeqQueue(3)，front=1，rear=2
+  A C E   顶点队列：SeqQueue(0,2,4)，front=2，rear=5
+  B       顶点队列：SeqQueue(2,4,1)，front=3，rear=0
+                    顶点队列：SeqQueue(4,1)，front=4，rear=0
+                    顶点队列：SeqQueue(1)，front=5，rear=0
+}
+{ G       顶点队列：SeqQueue(6)，front=0，rear=1
+} 
+
+{ G       顶点队列：SeqQueue(6)，front=0，rear=1
+}
+{ A       顶点队列：SeqQueue(0)，front=1，rear=2
+  B C D   顶点队列：SeqQueue(1,2,3)，front=2，rear=5
+  E       顶点队列：SeqQueue(2,3,4)，front=3，rear=0
+                    顶点队列：SeqQueue(3,4)，front=4，rear=0
+  F       顶点队列：SeqQueue(4,5)，front=5，rear=1
+                    顶点队列：SeqQueue(5)，front=0，rear=1
+} 
+
+//§7.4.2   最小生成树的构造算法
+带权无向图G3，prim算法      //图7.30
+mst边集合：(0,1,45),(0,2,28),(0,3,10),(0,4,16777215),(0,5,16777215),
+mst边集合：(0,3,10),(3,2,17),(0,1,45),(3,4,15),(3,5,13),
+mst边集合：(0,3,10),(3,5,13),(0,1,45),(5,4,11),(3,2,17),
+mst边集合：(0,3,10),(3,5,13),(5,4,11),(4,1,21),(3,2,17),
+mst边集合：(0,3,10),(3,5,13),(5,4,11),(3,2,17),(2,1,12),
+最小生成树的边集合：(0,3,10) (3,5,13) (5,4,11) (3,2,17) (2,1,12) ，最小代价为63
+
+
+//§7.5.1   单源最短路径
+带权无向图G3，Dijkstra算法      //图7.34
+A的单源最短路径：(A,D,C,B)长度39，(A,D,C)长度27，(A,D)长度10，(A,D,E)长度25，(A,D,F)长度23，
+B的单源最短路径：(B,C,D,A)长度39，(B,C)长度12，(B,C,D)长度29，(B,E)长度21，(B,E,F)长度32，
+C的单源最短路径：(C,D,A)长度27，(C,B)长度12，(C,D)长度17，(C,E)长度26，(C,D,F)长度30，
+D的单源最短路径：(D,A)长度10，(D,C,B)长度29，(D,C)长度17，(D,E)长度15，(D,F)长度13，
+E的单源最短路径：(E,D,A)长度25，(E,B)长度21，(E,C)长度26，(E,D)长度15，(E,F)长度11，
+F的单源最短路径：(F,D,A)长度23，(F,E,B)长度32，(F,D,C)长度30，(F,D)长度13，(F,E)长度11，
+
+//@author：Yeheya，2016-2-7，除夕；2019年10月27日

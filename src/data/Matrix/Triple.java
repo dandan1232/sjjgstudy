@@ -2,7 +2,8 @@ package data.Matrix;
 
 public class Triple implements Comparable<Triple>, Addible<Triple>
 {
-    int row, column, value;                      //行号、列号、元素值，默认访问权限
+
+  public  int row, column, value;                      //行号、列号、元素值，默认访问权限
     //7.2.2节，行号（边的起点序号），列号（终点序号）、元素值（权值）
 
     //构造方法，参数指定行号、列号、元素值。若行号、列号为负，则抛出无效参数异常

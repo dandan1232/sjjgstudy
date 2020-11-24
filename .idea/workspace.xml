@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d89937-b825-4b86-8204-2fcf8743ead1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/TTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/Tree_city.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/StorageTree/Trees.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree$TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/TwoLinkBinTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/BinaryTTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/BinaryTree2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sjjgstudy/data/BinaryTTree/BinaryTree2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Huffman/HuffmanTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Huffman/HuffmanTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Huffman/HuffmanTree_ex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Huffman/HuffmanTree_ex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Huffman/TriElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Huffman/TriElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Matrix/LinkedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Matrix/LinkedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Matrix/Triple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Matrix/Triple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/singly/SeqList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/singly/SeqList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1injg1X8H06hs9kLV5QM83KrFWw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -55,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sjjgstudy\src\data\PicGraph" />
+      <recent name="D:\sjjgstudy\src\data\Huffman" />
       <recent name="D:\sjjgstudy\src\data\StorageTree" />
       <recent name="D:\sjjgstudy\src\data\BinaryTTree" />
       <recent name="D:\sjjgstudy\src\Gen" />
-      <recent name="D:\sjjgstudy\src\Matrix" />
-      <recent name="D:\sjjgstudy\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -74,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree2">
+  <component name="RunManager" selected="Application.G5d">
     <configuration name="BinaryTree2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data.BinaryTTree.BinaryTree2" />
       <module name="sjjgstudy" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenList_insertRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.Gen.GenList_insertRemove" />
+    <configuration name="G3u" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.PicGraph.G3u" />
       <module name="sjjgstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.Gen.*" />
+          <option name="PATTERN" value="data.PicGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.Gen.GenLists" />
+    <configuration name="G4d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.PicGraph.G4d" />
       <module name="sjjgstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.Gen.*" />
+          <option name="PATTERN" value="data.PicGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.Matrix.MatrixTest" />
+    <configuration name="G5d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.PicGraph.G5d" />
       <module name="sjjgstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.Matrix.*" />
+          <option name="PATTERN" value="data.PicGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,28 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoLinkBinTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HuffmanTree_ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data.Huffman.HuffmanTree_ex" />
       <module name="sjjgstudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.BinaryTTree.*" />
+          <option name="PATTERN" value="data.Huffman.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data.BinaryTTree" />
-      <option name="MAIN_CLASS_NAME" value="data.BinaryTTree.TwoLinkBinTreeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.G5d" />
+        <item itemvalue="Application.G4d" />
+        <item itemvalue="Application.G3u" />
+        <item itemvalue="Application.HuffmanTree_ex" />
         <item itemvalue="Application.BinaryTree2" />
-        <item itemvalue="JUnit.TwoLinkBinTreeTest" />
-        <item itemvalue="Application.GenLists" />
-        <item itemvalue="Application.GenList_insertRemove" />
-        <item itemvalue="Application.MatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +176,10 @@
       <workItem from="1604622576955" duration="3308000" />
       <workItem from="1604966607451" duration="5838000" />
       <workItem from="1605053128652" duration="833000" />
-      <workItem from="1605575515867" duration="2112000" />
+      <workItem from="1605575515867" duration="2201000" />
+      <workItem from="1605657789911" duration="124000" />
+      <workItem from="1605831609689" duration="1964000" />
+      <workItem from="1606181792734" duration="3458000" />
     </task>
     <servers />
   </component>

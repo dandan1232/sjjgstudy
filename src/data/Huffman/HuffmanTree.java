@@ -1,7 +1,7 @@
 //《数据结构与算法（Java版）（第5版）》，作者：叶核亚，2019年8月9日
 //§6.3   二叉树应用
 //§6.3.1  Huffman树
-
+package data.Huffman;
 import java.util.*;                              //第8章用，散表映射 
 
 public class HuffmanTree
